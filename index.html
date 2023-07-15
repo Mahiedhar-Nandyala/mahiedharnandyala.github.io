@@ -1,12 +1,241 @@
 <!DOCTYPE html>
-<html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Profile</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Mahiedhar Nandyala</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive HTML5 Website landing Page for Developers">
+    <meta name="author" content="3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <!-- github acitivity css -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+    <link rel="stylesheet" href="http://caseyscarborough.github.io/github-activity/github-activity-0.1.0.min.css">
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
+
 <body>
-    <h1>My test website</h1>
+    <!-- ******HEADER****** -->
+    <header class="header">
+        <div class="container">
+            <img class="profile-image img-responsive pull-left" src="assets/images/mahie_dp.png" alt="Mahiedhar Nandyala" />
+            <div class="profile-content pull-left">
+                <h1 class="name">Mahiedhar Nandyala</h1>
+                <h2 class="desc">Software Developer</h2>
+                <ul class="social list-inline">
+                    <li><a href="https://www.linkedin.com/in/mahiedhar-nandyala/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/mahiedharnandyala/" target="_blank"><i class="fa fa-github-alt"></i></a></li>
+                </ul>
+            </div>
+            <!-- <a class="btn btn-cta-primary pull-right" href="http://themes.3rdwavemedia.com/" target="_blank"><i class="fa fa-paper-plane"></i> Contact Me</a> -->
+        </div>
+    </header>
+    
+    <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary col-md-8 col-sm-12 col-xs-12">
+                <section class="about section">
+                    <div class="section-inner">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            <p>I'm a Software Engineer with 5 years of experience in building software products and solutions at scale. Skilled in Backend development, Software Design & Architecture.</p>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+
+                <section class="experience section">
+                    <div class="section-inner">
+                        <h2 class="heading">Work Experience</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">SDE II - <span class="place"><a href="#">Edge Networks</a></span> <span class="year">(2020 - Present)</span></h3>
+                                <p>Working as a Backend Developer in building a multi-tenant SaaS platform.</p>
+                                <p>Contributions:</p>
+                                <ul>
+                                    <li>Worked on building core platform services on which various products depend on.</li>
+                                    <li>Designed & developed services to consume large volumes of data during initial loads using Flask, Celery, RabbitMQ, Redis.</li>
+                                    <li>Implemented Authentication & Authorization for the product using Keycloak, an open-source identity and access management framework.</li>
+                                    <li>Worked on a Domain Driven Design based Talent Decision Platform using Flask, Postgres, Elasticsearch, MinIO.</li>
+                                    <li>Developed a scheduler service using python & cron jobs to perform various recurring tasks.</li>
+                                    <li>Optimized key APIs and reduced the overall response time by 30% using Flask Profiler.</li>
+                                    <li>Developed python modules/packages for in-house needs.</li>
+                                    <li>Worked on redesigning few services to reduce the overall cost.</li>
+                                    <li>Used tools & platforms like Docker, Consul & Rollbar.</li>
+                                </ul>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Project Engineer - <span class="place"><a href="#">Wipro</a></span> <span class="year">(2018 - 2020)</span></h3>
+                                <p>Worked as a Software Developer in building WiproGO a B2B Application.</p>
+                                <p>Contributions:</p>
+                                <ul>
+                                    <li>Developed a FAQ chatbot from scratch and built a Query Classification system to reduce the search time using scikit-learn & Python, Flask.</li>
+                                    <li>Developed an Order Management Application to track the payment status of customers.</li>
+                                    <li>Developed a counterpart web application for  Lab Managers using Python, AWS Lambda, HTML, Bootstrap & Javascript.</li>
+                                    <li>Worked on a B2C Android and iOS app from scratch for Tarang lab at Wipro.</li>
+                                </ul>
+                            </div><!--//item-->
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+
+                <section class="projects section">
+                    <div class="section-inner">
+                        <h2 class="heading">Other Projects</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title"><a href="#">Pc2Mobile</a></h3>
+                                <p class="summary">A chrome extension that can be used to copy text from the chrome browser to a mobile phone by scanning the QR code generated by the extension.</p>
+                                <p><a class="more-link" href="https://chrome.google.com/webstore/detail/pc2mobile/kpbmjdoldjjjfhnkbfbhbkbageagalkn" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><a href="#">MyShare</a></h3>
+                                <p class="summary">A web-based application that helps to transfer files from one pc to another without the need for the internet. Comes in handy when storage devices capacity is not enough. Python, HTML, CSS, JS are used to develop the application.</p>
+                                <p><a class="more-link" href="https://github.com/mahiedharnandyala/MyShare" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
+                            </div><!--//item-->
+                            <!-- <a class="btn btn-cta-secondary" href="#">More on CoderWall <i class="fa fa-chevron-right"></i></a> -->
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+
+            </div><!--//primary-->
+            <div class="secondary col-md-4 col-sm-12 col-xs-12">
+                 <aside class="info aside section">
+                    <div class="section-inner">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Bangalore, India</li>
+                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#">mahie.nand5@gmail.com</a></li>
+                                <!-- <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="#">http://www.website.com</a></li> -->
+                            </ul>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//aside-->
+                
+                <aside class="skills aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
+                            <p class="intro"></p>
+                            
+                            <div class="skillset">
+                                <div class="item">
+                                    <h3 class="level-title">Python &amp; Flask<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to add more info...">Expert</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="96%">
+                                        </div>
+                                    </div><!--//level-bar-->
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Celery<span class="level-label">Expert</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="96%">
+                                        </div>
+                                    </div><!--//level-bar-->
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Microservices &amp; Docker<span class="level-label">Expert</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="96%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">Backend Development<span class="level-label">Expert</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="96%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">Software Design<span class="level-label">Pro</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="85%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <!-- <p><a class="more-link" href="#"><i class="fa fa-external-link"></i> More on Coderwall</a></p>  -->
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+                
+                <!-- <aside class="testimonials aside section"> -->
+                    <!-- <div class="section-inner"> -->
+                        <!-- <h2 class="heading">Testimonials</h2> -->
+                        <!-- <div class="content"> -->
+                            <!-- <div class="item"> -->
+                                <!-- <blockquote class="quote">                                   -->
+                                    <!-- <p><i class="fa fa-quote-left"></i>James is an excellent software engineer and he is passionate about what he does. You can totally count on him to deliver your projects!</p> -->
+                                <!-- </blockquote>                 -->
+                                <!-- <p class="source"><span class="name">Tim Adams</span><br /><span class="title">Curabitur commodo</span></p>                                                              -->
+                            <!-- </div> -->
+                            <!--//item-->
+                            
+                            <!-- <p><a class="more-link" href="#"><i class="fa fa-external-link"></i> More on Linkedin</a></p>  -->
+                            
+                        <!-- </div> -->
+                        <!--//content-->
+                    <!-- </div> -->
+                    <!--//section-inner-->
+                <!-- </aside> -->
+                <!--//section-->
+
+                <aside class="education aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Education</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> B-Tech Computer Science</h3>
+                                <h4 class="university">Sree Vidyanikethan Engineering College <span class="year">(2014-2018)</span></h4>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+                <small class="copyright">**TEMPLATE CREDITS** - Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">3rd Wave Media</a> for developers</small>
+        </div>
+    </footer>
+
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="http://caseyscarborough.github.io/github-activity/github-activity-0.1.0.min.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>            
 </body>
-</html>
+</html> 
+
